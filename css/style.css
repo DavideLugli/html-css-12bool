@@ -2,9 +2,19 @@ body {
   background-color: rgb(249, 178, 200);
 }
 
-.text-position-center{
+.text-position-center {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.container.rouge {
+  background-color: rgb(201, 86, 118);
+  height: 96%;
+  margin: 1%;
+}
+
+.container.rouge [class*=col-] {
+  border: 1px solid white;
 }
